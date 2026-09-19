@@ -1,12 +1,14 @@
 import type { NextConfig } from "next";
 
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
+const isProd = process.env.NODE_ENV === "production";
 const repoName = "Kosh-studios";
+// If you connect your custom domain to GitHub Pages, set USE_BASEPATH to false
+const useBasePath = process.env.USE_CUSTOM_DOMAIN !== "true";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isGithubActions ? `/${repoName}` : "",
-  assetPrefix: isGithubActions ? `/${repoName}/` : "",
+  basePath: isProd && useBasePath ? `/${repoName}` : "",
+  assetPrefix: isProd && useBasePath ? `/${repoName}/` : "",
   images: {
     unoptimized: true,
     remotePatterns: [
