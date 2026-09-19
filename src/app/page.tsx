@@ -10,30 +10,34 @@ export default function Home() {
   return (
     <div className="space-y-24 sm:space-y-32 pb-24">
       {/* HERO SECTION */}
-      <section className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        {/* Background Ambient Imagery */}
-        <div className="absolute inset-0 -z-10">
+      <section className="relative min-h-[92vh] flex items-center justify-center pt-32 sm:pt-36 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden bg-[#141518] isolate">
+        {/* Background Ambient Imagery with Guaranteed High Contrast */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
           <Image
             src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop"
             alt="Kosh Studios Architectural Masterpiece"
             fill
-            className="object-cover filter brightness-[0.4] scale-105 transition-transform duration-1000 ease-out"
+            className="object-cover filter brightness-[0.35] scale-105 transition-transform duration-1000 ease-out"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#141518] via-transparent to-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#141518]/90 via-[#141518]/65 to-[#141518]" />
         </div>
 
-        <div className="max-w-5xl mx-auto text-center text-white space-y-8">
+        <div className="relative z-10 max-w-5xl mx-auto text-center text-white space-y-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs uppercase tracking-[0.25em] text-[#E8DED0]">
             <Sparkles className="w-3.5 h-3.5 text-[#C18C5D]" />
             <span>Architecture • Interior Architecture • Turnkey Execution</span>
           </div>
 
-          <h1 className="font-serif-luxury text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-tight leading-[1.08] text-[#FAF8F5]">
-            Spaces of Quiet Permanence & Tactile Luxury
+          <h1 className="font-serif-luxury text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-normal tracking-tight leading-[1.1] text-white drop-shadow-md">
+            Spaces of Quiet{" "}
+            <span className="text-[#D4A373] font-medium italic block sm:inline">
+              Permanence &amp; Tactile
+            </span>{" "}
+            Luxury
           </h1>
 
-          <p className="max-w-2xl mx-auto text-base sm:text-lg text-[#D4D4D8] font-light leading-relaxed">
+          <p className="max-w-2xl mx-auto text-base sm:text-lg text-[#E4E4E7] font-light leading-relaxed drop-shadow-xs">
             We orchestrate light, raw natural materials, and context to craft bespoke residences,
             luxury penthouses, and commercial sanctuaries across India and beyond.
           </p>
