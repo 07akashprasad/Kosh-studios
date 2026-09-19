@@ -73,11 +73,11 @@ export default function Navbar() {
           {/* Action CTA */}
           <div className="hidden lg:flex items-center space-x-4">
             <Link
-              href="tel:+919820012345"
+              href="tel:+919128979202"
               className="text-xs tracking-wider uppercase text-[#71717A] hover:text-[#18181B] flex items-center gap-1.5 transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#A3704C]" />
-              <span>+91 98200 12345</span>
+              <span>+91 91289 79202</span>
             </Link>
 
             <Link
@@ -137,7 +137,7 @@ export default function Navbar() {
               </Link>
               <div className="flex items-center justify-between text-xs text-[#71717A] pt-2">
                 <a
-                  href="https://wa.me/919820012345"
+                  href="https://wa.me/919128979202"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 hover:text-[#A3704C]"
@@ -146,7 +146,7 @@ export default function Navbar() {
                   <span>WhatsApp Concierge</span>
                 </a>
                 <a
-                  href="tel:+919820012345"
+                  href="tel:+919128979202"
                   className="flex items-center gap-1.5 hover:text-[#A3704C]"
                 >
                   <Phone className="w-4 h-4 text-[#A3704C]" />

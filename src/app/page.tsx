@@ -58,12 +58,12 @@ export default function Home() {
               <span>Explore Selected Works</span>
             </Link>
           </div>
-        </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/60 flex flex-col items-center gap-2 text-[10px] uppercase tracking-widest">
-          <span>Scroll To Discover</span>
-          <div className="w-px h-8 bg-white/40 animate-pulse" />
+          {/* Clean in-flow Scroll Indicator that aligns with CTAs */}
+          <div className="pt-14 sm:pt-18 pb-2 flex flex-col items-center justify-center text-white/60 gap-2.5 text-[10px] uppercase tracking-[0.25em]">
+            <span>Scroll To Discover</span>
+            <div className="w-px h-8 bg-gradient-to-b from-white/70 to-transparent animate-pulse" />
+          </div>
         </div>
       </section>
 
@@ -295,7 +295,7 @@ export default function Home() {
               Start Project Questionnaire
             </Link>
             <a
-              href="https://wa.me/919820012345"
+              href="https://wa.me/919128979202"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3.5 bg-[#24262B] hover:bg-[#2F3238] border border-[#3E424B] text-white text-xs uppercase tracking-[0.2em] font-semibold rounded-xs transition-colors"

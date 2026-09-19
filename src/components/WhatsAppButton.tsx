@@ -5,7 +5,7 @@ import { MessageSquare, X } from "lucide-react";
 
 export default function WhatsAppButton() {
   const [showTooltip, setShowTooltip] = useState(false);
-  const phoneNumber = "919820012345";
+  const phoneNumber = "919128979202";
   const defaultMessage = encodeURIComponent(
     "Hello Kosh Studios, I came across your work on your website and would like to inquire about a new architectural / interior project."
   );

@@ -74,7 +74,7 @@ export default function ConsultationForm() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://wa.me/919820012345"
+              href="https://wa.me/919128979202"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#25D366] text-white text-xs uppercase tracking-wider font-semibold rounded-xs hover:bg-[#1EBE5D] transition-colors"
@@ -83,7 +83,7 @@ export default function ConsultationForm() {
               <span>Direct WhatsApp</span>
             </a>
             <a
-              href="tel:+919820012345"
+              href="tel:+919128979202"
               className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#18181B] text-white text-xs uppercase tracking-wider font-semibold rounded-xs hover:bg-[#A3704C] transition-colors"
             >
               <Phone className="w-4 h-4" />
@@ -371,7 +371,7 @@ export default function ConsultationForm() {
                   <input
                     type="tel"
                     required
-                    placeholder="+91 98200 XXXXX"
+                    placeholder="+91 91289 XXXXX"
                     value={formData.phone}
                     onChange={(e) => handleSelect("phone", e.target.value)}
                     className="w-full px-4 py-3 bg-[#FAF8F5] border border-[#E5DFD5] rounded-xs text-xs focus:outline-hidden focus:border-[#A3704C]"

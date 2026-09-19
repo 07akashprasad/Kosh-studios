@@ -39,7 +39,7 @@ export default function ContactPage() {
 
             <div className="space-y-4 pt-2">
               <a
-                href="https://wa.me/919820012345?text=Hello%20Kosh%20Studios%2C%20I%20would%20like%20to%20discuss%20a%20new%20architectural%20project."
+                href="https://wa.me/919128979202?text=Hello%20Kosh%20Studios%2C%20I%20would%20like%20to%20discuss%20a%20new%20architectural%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-between p-3.5 rounded-xs bg-[#24262B] hover:bg-[#2F3238] border border-[#3E424B] transition-colors"
@@ -57,7 +57,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="tel:+919820012345"
+                href="tel:+919128979202"
                 className="flex items-center justify-between p-3.5 rounded-xs bg-[#24262B] hover:bg-[#2F3238] border border-[#3E424B] transition-colors"
               >
                 <div className="flex items-center gap-3">
@@ -66,7 +66,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <strong className="text-xs font-semibold text-white block">Direct Studio Telephone</strong>
-                    <span className="text-[11px] text-[#A1A1AA]">+91 98200 12345</span>
+                    <span className="text-[11px] text-[#A1A1AA]">+91 91289 79202</span>
                   </div>
                 </div>
                 <ArrowUpRight className="w-4 h-4 text-[#A1A1AA]" />
