@@ -9,10 +9,10 @@ export default function Footer() {
           {/* Col 1: Studio Brand & Manifesto */}
           <div className="lg:col-span-2 space-y-5">
             <Link href="/" className="inline-block">
-              <span className="font-serif-luxury text-3xl tracking-[0.2em] font-semibold text-white">
+              <span className="font-kosh-logo text-4xl text-white leading-none">
                 KOSH
               </span>
-              <span className="block text-[9px] tracking-[0.4em] text-[#A1A1AA] uppercase mt-0.5">
+              <span className="block text-[9px] tracking-[0.4em] text-[#A1A1AA] uppercase mt-1">
                 Architecture & Interiors
               </span>
             </Link>

@@ -42,10 +42,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
           <Link href="/" className="group flex flex-col">
-            <span className="font-serif-luxury text-2xl sm:text-3xl tracking-[0.18em] font-semibold text-[#18181B] group-hover:text-[#A3704C] transition-colors">
+            <span className="font-kosh-logo text-3xl sm:text-4xl text-[#18181B] group-hover:text-[#A3704C] transition-colors leading-none">
               KOSH
             </span>
-            <span className="text-[9px] tracking-[0.35em] text-[#71717A] uppercase font-medium -mt-1">
+            <span className="text-[9px] tracking-[0.35em] text-[#71717A] uppercase font-medium mt-1">
               Architecture & Interiors
             </span>
           </Link>

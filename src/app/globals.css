@@ -66,6 +66,23 @@ body {
   font-family: var(--font-sans);
 }
 
+@font-face {
+  font-family: 'cravelo-demo-font';
+  src: local('cravelo-demo-font'), local('Cravelo-Demo'), local('Cravelo Demo'), local('Cravelo DEMO'), local('Cravelo'),
+       url('/fonts/cravelo-demo-font.otf') format('opentype'),
+       url('/fonts/cravelo-demo-font.ttf') format('truetype'),
+       url('/fonts/Cravelo.otf') format('opentype'),
+       url('/fonts/Cravelo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-kosh-logo {
+  font-family: 'cravelo-demo-font', 'Cravelo Demo', 'Cravelo', 'Cinzel', var(--font-serif);
+  letter-spacing: 0.08em;
+}
+
 .glass-nav {
   background: rgba(250, 248, 245, 0.9);
   backdrop-filter: blur(12px);

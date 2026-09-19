@@ -7,8 +7,8 @@ const useBasePath = process.env.USE_CUSTOM_DOMAIN !== "true";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd && useBasePath ? `/${repoName}` : "",
-  assetPrefix: isProd && useBasePath ? `/${repoName}/` : "",
+  basePath: "",
+  assetPrefix: "",
   images: {
     unoptimized: true,
     remotePatterns: [
